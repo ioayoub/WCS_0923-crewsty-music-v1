@@ -7,7 +7,6 @@ export default function CardWrapper({ data }) {
       {data.map((d) => (
         <NewsCard card={d} key={d.title} />
       ))}
-      ;
     </div>
   );
 }

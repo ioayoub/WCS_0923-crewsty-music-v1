@@ -12,7 +12,6 @@ export default function Homepage() {
 
   return (
     <div className="w-full bg-neutral-200 dark:bg-neutral-500 text-neutral-800 dark:text-neutral-200">
-      <h1 className="text-4xl my-16 text-center">Accueil</h1>
       {data ? (
         <div>
           <Carousel

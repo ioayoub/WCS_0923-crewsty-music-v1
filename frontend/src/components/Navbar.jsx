@@ -12,7 +12,7 @@ export default function Navbar() {
             <h2 className="text-xl font-bold">CrewstyMusic 🎧</h2>
           </div>
           <div className="flex-1">
-            <ul className="pt-2 pb-4 space-y-1 text-sm">
+            <ul className="pt-2 pb-4 space-y-1 text-lg">
               <li className="flex items-center p-2 space-x-3">
                 <NavLink to="/">🏠</NavLink>
                 <span>Home</span>
