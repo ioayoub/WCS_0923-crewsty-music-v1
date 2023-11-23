@@ -8,7 +8,7 @@ export default function Homepage() {
   const data = useLoaderData();
 
   const articles = data?.articles;
-  const carouselArticles = articles.slice(0, 4);
+  const carouselArticles = articles?.slice(0, 4);
 
   return (
     <div className="w-full bg-neutral-200 dark:bg-neutral-500 text-neutral-800 dark:text-neutral-200">

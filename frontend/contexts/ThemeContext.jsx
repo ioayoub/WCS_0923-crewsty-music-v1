@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 const ThemeContext = createContext();
 
 // Contenu
-
 export function ThemeContextProvider({ children }) {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
