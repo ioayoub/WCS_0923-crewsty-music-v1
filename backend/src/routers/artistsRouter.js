@@ -2,8 +2,8 @@ const express = require("express");
 
 const router = express.Router();
 
-const artistsRouter = require("./routers/artistsRouter");
+const { browse } = require("../controllers/artistControllers");
 
-router.use("/artists", artistsRouter);
+router.get("/", browse);
 
 module.exports = router;

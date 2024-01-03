@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import "./App.css";
-import { ThemeContextProvider } from "../contexts/ThemeContext";
+import { ThemeContextProvider } from "./contexts/ThemeContext";
 
 function App() {
   return (

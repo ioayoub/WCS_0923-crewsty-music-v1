@@ -3,7 +3,7 @@ import NewsCard from "./NewsCard";
 
 export default function CardWrapper({ data }) {
   return (
-    <div>
+    <div className="mx-8 flex flex-row flex-wrap gap-8 justify-center">
       {data.map((d) => (
         <NewsCard card={d} key={d.title} />
       ))}

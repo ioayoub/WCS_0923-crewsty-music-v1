@@ -16,6 +16,8 @@ export default function ArticleNews() {
       <a
         href={article.url}
         className="my-12 p-4 block  text-center w-fit mx-auto bg-black text-white"
+        target="_blank"
+        rel="noreferrer"
       >
         Lien vers l'article
       </a>
